@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/edittaskmodal.tsx","./src/components/filtermanager.tsx","./src/components/labelmanager.tsx","./src/components/projectlist.tsx","./src/components/taskitem.tsx","./src/features/tasks/usetaskstore.ts","./vite-env.d.ts"],"version":"5.8.3"}
