@@ -52,7 +52,8 @@ export default function App() {
       <nav className="w-64 border-r border-border p-6 pt-8 flex-shrink-0 flex flex-col">
         <div className="flex-grow">
           <div className="flex items-center gap-3 mb-10">
-            <div className="w-8 h-8 bg-primary rounded-lg flex-shrink-0"></div>
+            {/* Replaced the green div with your logo image */}
+            <img src="/flowdo.png" alt="Flowdo Logo" className="w-8 h-8 flex-shrink-0 object-contain" />
             <h1 className="text-xl font-bold">Flowdo</h1>
           </div>
           <ul className="space-y-2">
