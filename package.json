@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "npx tailwindcss -i ./src/index.css -o ./src/output.css && npx tsc -b && npx vite build",
-  "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview"
-}
-  ,
+    "dev": "vite",
+    "tailwind:build": "npx tailwindcss -i ./src/index.css -o ./src/output.css",
+    "tsc:build": "npx tsc -b",
+    "vite:build": "npx vite build",
+    "build": "npm run tailwind:build && npm run tsc:build && npm run vite:build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@nhost/react": "^3.11.1",
     "@nhost/react-apollo": "^18.0.1",
